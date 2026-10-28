@@ -1,0 +1,193 @@
+id,group,split,text,label,source
+laboral-01-0,laboral-01,train,La empresa no pagó el salario correspondiente a los meses trabajados.,laboral,sintetico_autoria_academica
+laboral-01-1,laboral-01,train,Solicito orientación: La empresa no pagó el salario correspondiente a los meses trabajados.,laboral,sintetico_autoria_academica
+laboral-01-2,laboral-01,train,Consulta recibida: La empresa no pagó el salario correspondiente a los meses trabajados.,laboral,sintetico_autoria_academica
+laboral-02-0,laboral-02,train,El empleador terminó el contrato de trabajo sin reconocer la liquidación.,laboral,sintetico_autoria_academica
+laboral-02-1,laboral-02,train,Solicito orientación: El empleador terminó el contrato de trabajo sin reconocer la liquidación.,laboral,sintetico_autoria_academica
+laboral-02-2,laboral-02,train,Consulta recibida: El empleador terminó el contrato de trabajo sin reconocer la liquidación.,laboral,sintetico_autoria_academica
+laboral-03-0,laboral-03,train,Trabajé horas extras y mi jefe se niega a remunerar la jornada adicional.,laboral,sintetico_autoria_academica
+laboral-03-1,laboral-03,train,Solicito orientación: Trabajé horas extras y mi jefe se niega a remunerar la jornada adicional.,laboral,sintetico_autoria_academica
+laboral-03-2,laboral-03,train,Consulta recibida: Trabajé horas extras y mi jefe se niega a remunerar la jornada adicional.,laboral,sintetico_autoria_academica
+laboral-04-0,laboral-04,train,Mi empleador no realizó los aportes de seguridad social durante el contrato.,laboral,sintetico_autoria_academica
+laboral-04-1,laboral-04,train,Solicito orientación: Mi empleador no realizó los aportes de seguridad social durante el contrato.,laboral,sintetico_autoria_academica
+laboral-04-2,laboral-04,train,Consulta recibida: Mi empleador no realizó los aportes de seguridad social durante el contrato.,laboral,sintetico_autoria_academica
+laboral-05-0,laboral-05,train,La trabajadora fue despedida durante el embarazo y solicita revisión de su despido.,laboral,sintetico_autoria_academica
+laboral-05-1,laboral-05,train,Solicito orientación: La trabajadora fue despedida durante el embarazo y solicita revisión de su despido.,laboral,sintetico_autoria_academica
+laboral-05-2,laboral-05,train,Consulta recibida: La trabajadora fue despedida durante el embarazo y solicita revisión de su despido.,laboral,sintetico_autoria_academica
+laboral-06-0,laboral-06,train,Un accidente de trabajo ocurrió en la fábrica y la empresa no lo reportó.,laboral,sintetico_autoria_academica
+laboral-06-1,laboral-06,train,Solicito orientación: Un accidente de trabajo ocurrió en la fábrica y la empresa no lo reportó.,laboral,sintetico_autoria_academica
+laboral-06-2,laboral-06,train,Consulta recibida: Un accidente de trabajo ocurrió en la fábrica y la empresa no lo reportó.,laboral,sintetico_autoria_academica
+laboral-07-0,laboral-07,train,El jefe exige renunciar para evitar pagar la indemnización laboral.,laboral,sintetico_autoria_academica
+laboral-07-1,laboral-07,train,Solicito orientación: El jefe exige renunciar para evitar pagar la indemnización laboral.,laboral,sintetico_autoria_academica
+laboral-07-2,laboral-07,train,Consulta recibida: El jefe exige renunciar para evitar pagar la indemnización laboral.,laboral,sintetico_autoria_academica
+laboral-08-0,laboral-08,train,Un trabajador solicita vacaciones y la empresa desconoce su descanso remunerado.,laboral,sintetico_autoria_academica
+laboral-08-1,laboral-08,train,Solicito orientación: Un trabajador solicita vacaciones y la empresa desconoce su descanso remunerado.,laboral,sintetico_autoria_academica
+laboral-08-2,laboral-08,train,Consulta recibida: Un trabajador solicita vacaciones y la empresa desconoce su descanso remunerado.,laboral,sintetico_autoria_academica
+laboral-09-0,laboral-09,train,La empresa cambió el horario de trabajo y redujo el sueldo sin acuerdo.,laboral,sintetico_autoria_academica
+laboral-09-1,laboral-09,train,Solicito orientación: La empresa cambió el horario de trabajo y redujo el sueldo sin acuerdo.,laboral,sintetico_autoria_academica
+laboral-09-2,laboral-09,train,Consulta recibida: La empresa cambió el horario de trabajo y redujo el sueldo sin acuerdo.,laboral,sintetico_autoria_academica
+laboral-10-0,laboral-10,train,El empleador retuvo las cesantías y la prima de servicios de la empleada.,laboral,sintetico_autoria_academica
+laboral-10-1,laboral-10,train,Solicito orientación: El empleador retuvo las cesantías y la prima de servicios de la empleada.,laboral,sintetico_autoria_academica
+laboral-10-2,laboral-10,train,Consulta recibida: El empleador retuvo las cesantías y la prima de servicios de la empleada.,laboral,sintetico_autoria_academica
+laboral-11-0,laboral-11,validation,Un supervisor humilla diariamente al empleado en su lugar de trabajo.,laboral,sintetico_autoria_academica
+laboral-11-1,laboral-11,validation,Solicito orientación: Un supervisor humilla diariamente al empleado en su lugar de trabajo.,laboral,sintetico_autoria_academica
+laboral-11-2,laboral-11,validation,Consulta recibida: Un supervisor humilla diariamente al empleado en su lugar de trabajo.,laboral,sintetico_autoria_academica
+laboral-12-0,laboral-12,validation,No recibí mi salario ni los aportes después de terminar la relación laboral.,laboral,sintetico_autoria_academica
+laboral-12-1,laboral-12,validation,Solicito orientación: No recibí mi salario ni los aportes después de terminar la relación laboral.,laboral,sintetico_autoria_academica
+laboral-12-2,laboral-12,validation,Consulta recibida: No recibí mi salario ni los aportes después de terminar la relación laboral.,laboral,sintetico_autoria_academica
+laboral-13-0,laboral-13,validation,La empresa desconoce la incapacidad médica y descuenta los días del salario.,laboral,sintetico_autoria_academica
+laboral-13-1,laboral-13,validation,Solicito orientación: La empresa desconoce la incapacidad médica y descuenta los días del salario.,laboral,sintetico_autoria_academica
+laboral-13-2,laboral-13,validation,Consulta recibida: La empresa desconoce la incapacidad médica y descuenta los días del salario.,laboral,sintetico_autoria_academica
+laboral-14-0,laboral-14,test,La trabajadora reclama su liquidación al finalizar el contrato en la oficina.,laboral,sintetico_autoria_academica
+laboral-14-1,laboral-14,test,Solicito orientación: La trabajadora reclama su liquidación al finalizar el contrato en la oficina.,laboral,sintetico_autoria_academica
+laboral-14-2,laboral-14,test,Consulta recibida: La trabajadora reclama su liquidación al finalizar el contrato en la oficina.,laboral,sintetico_autoria_academica
+laboral-15-0,laboral-15,test,Un empleado denuncia jornadas nocturnas sin pago de recargos por su empleador.,laboral,sintetico_autoria_academica
+laboral-15-1,laboral-15,test,Solicito orientación: Un empleado denuncia jornadas nocturnas sin pago de recargos por su empleador.,laboral,sintetico_autoria_academica
+laboral-15-2,laboral-15,test,Consulta recibida: Un empleado denuncia jornadas nocturnas sin pago de recargos por su empleador.,laboral,sintetico_autoria_academica
+laboral-16-0,laboral-16,test,La empresa impide regresar al puesto de trabajo después de una licencia.,laboral,sintetico_autoria_academica
+laboral-16-1,laboral-16,test,Solicito orientación: La empresa impide regresar al puesto de trabajo después de una licencia.,laboral,sintetico_autoria_academica
+laboral-16-2,laboral-16,test,Consulta recibida: La empresa impide regresar al puesto de trabajo después de una licencia.,laboral,sintetico_autoria_academica
+familia-01-0,familia-01,train,El padre dejó de pagar la cuota de alimentos para su hija menor.,familia,sintetico_autoria_academica
+familia-01-1,familia-01,train,Solicito orientación: El padre dejó de pagar la cuota de alimentos para su hija menor.,familia,sintetico_autoria_academica
+familia-01-2,familia-01,train,Consulta recibida: El padre dejó de pagar la cuota de alimentos para su hija menor.,familia,sintetico_autoria_academica
+familia-02-0,familia-02,train,Los padres no logran acordar la custodia de sus hijos tras la separación.,familia,sintetico_autoria_academica
+familia-02-1,familia-02,train,Solicito orientación: Los padres no logran acordar la custodia de sus hijos tras la separación.,familia,sintetico_autoria_academica
+familia-02-2,familia-02,train,Consulta recibida: Los padres no logran acordar la custodia de sus hijos tras la separación.,familia,sintetico_autoria_academica
+familia-03-0,familia-03,train,La madre solicita fijar un régimen de visitas para el padre de su hijo.,familia,sintetico_autoria_academica
+familia-03-1,familia-03,train,Solicito orientación: La madre solicita fijar un régimen de visitas para el padre de su hijo.,familia,sintetico_autoria_academica
+familia-03-2,familia-03,train,Consulta recibida: La madre solicita fijar un régimen de visitas para el padre de su hijo.,familia,sintetico_autoria_academica
+familia-04-0,familia-04,train,Una pareja quiere tramitar el divorcio y distribuir los bienes matrimoniales.,familia,sintetico_autoria_academica
+familia-04-1,familia-04,train,Solicito orientación: Una pareja quiere tramitar el divorcio y distribuir los bienes matrimoniales.,familia,sintetico_autoria_academica
+familia-04-2,familia-04,train,Consulta recibida: Una pareja quiere tramitar el divorcio y distribuir los bienes matrimoniales.,familia,sintetico_autoria_academica
+familia-05-0,familia-05,train,El padre se niega a reconocer la paternidad de su hija.,familia,sintetico_autoria_academica
+familia-05-1,familia-05,train,Solicito orientación: El padre se niega a reconocer la paternidad de su hija.,familia,sintetico_autoria_academica
+familia-05-2,familia-05,train,Consulta recibida: El padre se niega a reconocer la paternidad de su hija.,familia,sintetico_autoria_academica
+familia-06-0,familia-06,train,Una madre solicita aumentar los alimentos por los gastos escolares del niño.,familia,sintetico_autoria_academica
+familia-06-1,familia-06,train,Solicito orientación: Una madre solicita aumentar los alimentos por los gastos escolares del niño.,familia,sintetico_autoria_academica
+familia-06-2,familia-06,train,Consulta recibida: Una madre solicita aumentar los alimentos por los gastos escolares del niño.,familia,sintetico_autoria_academica
+familia-07-0,familia-07,train,Los cónyuges quieren disolver su sociedad conyugal después de separarse.,familia,sintetico_autoria_academica
+familia-07-1,familia-07,train,Solicito orientación: Los cónyuges quieren disolver su sociedad conyugal después de separarse.,familia,sintetico_autoria_academica
+familia-07-2,familia-07,train,Consulta recibida: Los cónyuges quieren disolver su sociedad conyugal después de separarse.,familia,sintetico_autoria_academica
+familia-08-0,familia-08,train,Los abuelos desean solicitar la custodia de su nieta para proteger su cuidado.,familia,sintetico_autoria_academica
+familia-08-1,familia-08,train,Solicito orientación: Los abuelos desean solicitar la custodia de su nieta para proteger su cuidado.,familia,sintetico_autoria_academica
+familia-08-2,familia-08,train,Consulta recibida: Los abuelos desean solicitar la custodia de su nieta para proteger su cuidado.,familia,sintetico_autoria_academica
+familia-09-0,familia-09,train,Un padre necesita autorización para viajar fuera del país con su hijo menor.,familia,sintetico_autoria_academica
+familia-09-1,familia-09,train,Solicito orientación: Un padre necesita autorización para viajar fuera del país con su hijo menor.,familia,sintetico_autoria_academica
+familia-09-2,familia-09,train,Consulta recibida: Un padre necesita autorización para viajar fuera del país con su hijo menor.,familia,sintetico_autoria_academica
+familia-10-0,familia-10,train,La pareja consulta cómo formalizar su unión marital y las obligaciones familiares.,familia,sintetico_autoria_academica
+familia-10-1,familia-10,train,Solicito orientación: La pareja consulta cómo formalizar su unión marital y las obligaciones familiares.,familia,sintetico_autoria_academica
+familia-10-2,familia-10,train,Consulta recibida: La pareja consulta cómo formalizar su unión marital y las obligaciones familiares.,familia,sintetico_autoria_academica
+familia-11-0,familia-11,validation,La madre impide las visitas acordadas entre el padre y la hija.,familia,sintetico_autoria_academica
+familia-11-1,familia-11,validation,Solicito orientación: La madre impide las visitas acordadas entre el padre y la hija.,familia,sintetico_autoria_academica
+familia-11-2,familia-11,validation,Consulta recibida: La madre impide las visitas acordadas entre el padre y la hija.,familia,sintetico_autoria_academica
+familia-12-0,familia-12,validation,Los padres discuten quién cubrirá los alimentos y la atención médica del menor.,familia,sintetico_autoria_academica
+familia-12-1,familia-12,validation,Solicito orientación: Los padres discuten quién cubrirá los alimentos y la atención médica del menor.,familia,sintetico_autoria_academica
+familia-12-2,familia-12,validation,Consulta recibida: Los padres discuten quién cubrirá los alimentos y la atención médica del menor.,familia,sintetico_autoria_academica
+familia-13-0,familia-13,validation,La pareja separada requiere un acuerdo sobre custodia compartida y visitas.,familia,sintetico_autoria_academica
+familia-13-1,familia-13,validation,Solicito orientación: La pareja separada requiere un acuerdo sobre custodia compartida y visitas.,familia,sintetico_autoria_academica
+familia-13-2,familia-13,validation,Consulta recibida: La pareja separada requiere un acuerdo sobre custodia compartida y visitas.,familia,sintetico_autoria_academica
+familia-14-0,familia-14,test,El padre quiere revisar la cuota alimentaria por cambios en sus ingresos.,familia,sintetico_autoria_academica
+familia-14-1,familia-14,test,Solicito orientación: El padre quiere revisar la cuota alimentaria por cambios en sus ingresos.,familia,sintetico_autoria_academica
+familia-14-2,familia-14,test,Consulta recibida: El padre quiere revisar la cuota alimentaria por cambios en sus ingresos.,familia,sintetico_autoria_academica
+familia-15-0,familia-15,test,Una persona solicita divorcio porque la convivencia matrimonial terminó.,familia,sintetico_autoria_academica
+familia-15-1,familia-15,test,Solicito orientación: Una persona solicita divorcio porque la convivencia matrimonial terminó.,familia,sintetico_autoria_academica
+familia-15-2,familia-15,test,Consulta recibida: Una persona solicita divorcio porque la convivencia matrimonial terminó.,familia,sintetico_autoria_academica
+familia-16-0,familia-16,test,Se pide reconocer la paternidad y definir obligaciones alimentarias del hijo.,familia,sintetico_autoria_academica
+familia-16-1,familia-16,test,Solicito orientación: Se pide reconocer la paternidad y definir obligaciones alimentarias del hijo.,familia,sintetico_autoria_academica
+familia-16-2,familia-16,test,Consulta recibida: Se pide reconocer la paternidad y definir obligaciones alimentarias del hijo.,familia,sintetico_autoria_academica
+civil-01-0,civil-01,train,El arrendatario no devuelve el apartamento después de terminar el arriendo.,civil,sintetico_autoria_academica
+civil-01-1,civil-01,train,Solicito orientación: El arrendatario no devuelve el apartamento después de terminar el arriendo.,civil,sintetico_autoria_academica
+civil-01-2,civil-01,train,Consulta recibida: El arrendatario no devuelve el apartamento después de terminar el arriendo.,civil,sintetico_autoria_academica
+civil-02-0,civil-02,train,Un comprador pagó un vehículo y el vendedor incumplió el contrato de compraventa.,civil,sintetico_autoria_academica
+civil-02-1,civil-02,train,Solicito orientación: Un comprador pagó un vehículo y el vendedor incumplió el contrato de compraventa.,civil,sintetico_autoria_academica
+civil-02-2,civil-02,train,Consulta recibida: Un comprador pagó un vehículo y el vendedor incumplió el contrato de compraventa.,civil,sintetico_autoria_academica
+civil-03-0,civil-03,train,El vecino causó daños al inmueble y se reclama reparación económica.,civil,sintetico_autoria_academica
+civil-03-1,civil-03,train,Solicito orientación: El vecino causó daños al inmueble y se reclama reparación económica.,civil,sintetico_autoria_academica
+civil-03-2,civil-03,train,Consulta recibida: El vecino causó daños al inmueble y se reclama reparación económica.,civil,sintetico_autoria_academica
+civil-04-0,civil-04,train,Una persona prestó dinero y el deudor no ha cumplido el pagaré.,civil,sintetico_autoria_academica
+civil-04-1,civil-04,train,Solicito orientación: Una persona prestó dinero y el deudor no ha cumplido el pagaré.,civil,sintetico_autoria_academica
+civil-04-2,civil-04,train,Consulta recibida: Una persona prestó dinero y el deudor no ha cumplido el pagaré.,civil,sintetico_autoria_academica
+civil-05-0,civil-05,train,El propietario reclama el pago de cánones de arrendamiento vencidos.,civil,sintetico_autoria_academica
+civil-05-1,civil-05,train,Solicito orientación: El propietario reclama el pago de cánones de arrendamiento vencidos.,civil,sintetico_autoria_academica
+civil-05-2,civil-05,train,Consulta recibida: El propietario reclama el pago de cánones de arrendamiento vencidos.,civil,sintetico_autoria_academica
+civil-06-0,civil-06,train,Un contratista abandonó la reparación de la vivienda y se pide devolución del anticipo.,civil,sintetico_autoria_academica
+civil-06-1,civil-06,train,Solicito orientación: Un contratista abandonó la reparación de la vivienda y se pide devolución del anticipo.,civil,sintetico_autoria_academica
+civil-06-2,civil-06,train,Consulta recibida: Un contratista abandonó la reparación de la vivienda y se pide devolución del anticipo.,civil,sintetico_autoria_academica
+civil-07-0,civil-07,train,Dos vecinos discuten los linderos y la propiedad de un terreno.,civil,sintetico_autoria_academica
+civil-07-1,civil-07,train,Solicito orientación: Dos vecinos discuten los linderos y la propiedad de un terreno.,civil,sintetico_autoria_academica
+civil-07-2,civil-07,train,Consulta recibida: Dos vecinos discuten los linderos y la propiedad de un terreno.,civil,sintetico_autoria_academica
+civil-08-0,civil-08,train,Los herederos buscan realizar la sucesión de los bienes de su familiar fallecido.,civil,sintetico_autoria_academica
+civil-08-1,civil-08,train,Solicito orientación: Los herederos buscan realizar la sucesión de los bienes de su familiar fallecido.,civil,sintetico_autoria_academica
+civil-08-2,civil-08,train,Consulta recibida: Los herederos buscan realizar la sucesión de los bienes de su familiar fallecido.,civil,sintetico_autoria_academica
+civil-09-0,civil-09,train,Un vendedor entregó un inmueble con defectos y el comprador pide reparación.,civil,sintetico_autoria_academica
+civil-09-1,civil-09,train,Solicito orientación: Un vendedor entregó un inmueble con defectos y el comprador pide reparación.,civil,sintetico_autoria_academica
+civil-09-2,civil-09,train,Consulta recibida: Un vendedor entregó un inmueble con defectos y el comprador pide reparación.,civil,sintetico_autoria_academica
+civil-10-0,civil-10,train,El inquilino quiere terminar el contrato de arrendamiento por incumplimiento del propietario.,civil,sintetico_autoria_academica
+civil-10-1,civil-10,train,Solicito orientación: El inquilino quiere terminar el contrato de arrendamiento por incumplimiento del propietario.,civil,sintetico_autoria_academica
+civil-10-2,civil-10,train,Consulta recibida: El inquilino quiere terminar el contrato de arrendamiento por incumplimiento del propietario.,civil,sintetico_autoria_academica
+civil-11-0,civil-11,validation,Un deudor incumple las cuotas de un préstamo entre particulares.,civil,sintetico_autoria_academica
+civil-11-1,civil-11,validation,Solicito orientación: Un deudor incumple las cuotas de un préstamo entre particulares.,civil,sintetico_autoria_academica
+civil-11-2,civil-11,validation,Consulta recibida: Un deudor incumple las cuotas de un préstamo entre particulares.,civil,sintetico_autoria_academica
+civil-12-0,civil-12,validation,El propietario exige restituir su local arrendado y pagar la deuda.,civil,sintetico_autoria_academica
+civil-12-1,civil-12,validation,Solicito orientación: El propietario exige restituir su local arrendado y pagar la deuda.,civil,sintetico_autoria_academica
+civil-12-2,civil-12,validation,Consulta recibida: El propietario exige restituir su local arrendado y pagar la deuda.,civil,sintetico_autoria_academica
+civil-13-0,civil-13,validation,Un comprador solicita resolver el contrato por falta de entrega del bien.,civil,sintetico_autoria_academica
+civil-13-1,civil-13,validation,Solicito orientación: Un comprador solicita resolver el contrato por falta de entrega del bien.,civil,sintetico_autoria_academica
+civil-13-2,civil-13,validation,Consulta recibida: Un comprador solicita resolver el contrato por falta de entrega del bien.,civil,sintetico_autoria_academica
+civil-14-0,civil-14,test,Se reclama el pago de una deuda respaldada mediante una letra de cambio.,civil,sintetico_autoria_academica
+civil-14-1,civil-14,test,Solicito orientación: Se reclama el pago de una deuda respaldada mediante una letra de cambio.,civil,sintetico_autoria_academica
+civil-14-2,civil-14,test,Consulta recibida: Se reclama el pago de una deuda respaldada mediante una letra de cambio.,civil,sintetico_autoria_academica
+civil-15-0,civil-15,test,Una filtración del apartamento vecino dañó la vivienda y se solicita indemnización.,civil,sintetico_autoria_academica
+civil-15-1,civil-15,test,Solicito orientación: Una filtración del apartamento vecino dañó la vivienda y se solicita indemnización.,civil,sintetico_autoria_academica
+civil-15-2,civil-15,test,Consulta recibida: Una filtración del apartamento vecino dañó la vivienda y se solicita indemnización.,civil,sintetico_autoria_academica
+civil-16-0,civil-16,test,Los propietarios discuten la división de un bien adquirido en común.,civil,sintetico_autoria_academica
+civil-16-1,civil-16,test,Solicito orientación: Los propietarios discuten la división de un bien adquirido en común.,civil,sintetico_autoria_academica
+civil-16-2,civil-16,test,Consulta recibida: Los propietarios discuten la división de un bien adquirido en común.,civil,sintetico_autoria_academica
+penal-01-0,penal-01,train,Una persona denunció el hurto de su teléfono mediante amenaza en la calle.,penal,sintetico_autoria_academica
+penal-01-1,penal-01,train,Solicito orientación: Una persona denunció el hurto de su teléfono mediante amenaza en la calle.,penal,sintetico_autoria_academica
+penal-01-2,penal-01,train,Consulta recibida: Una persona denunció el hurto de su teléfono mediante amenaza en la calle.,penal,sintetico_autoria_academica
+penal-02-0,penal-02,train,Un hombre exige dinero bajo amenazas y la víctima desea denunciar la extorsión.,penal,sintetico_autoria_academica
+penal-02-1,penal-02,train,Solicito orientación: Un hombre exige dinero bajo amenazas y la víctima desea denunciar la extorsión.,penal,sintetico_autoria_academica
+penal-02-2,penal-02,train,Consulta recibida: Un hombre exige dinero bajo amenazas y la víctima desea denunciar la extorsión.,penal,sintetico_autoria_academica
+penal-03-0,penal-03,train,La víctima recibió lesiones durante una agresión y acudió a la Fiscalía.,penal,sintetico_autoria_academica
+penal-03-1,penal-03,train,Solicito orientación: La víctima recibió lesiones durante una agresión y acudió a la Fiscalía.,penal,sintetico_autoria_academica
+penal-03-2,penal-03,train,Consulta recibida: La víctima recibió lesiones durante una agresión y acudió a la Fiscalía.,penal,sintetico_autoria_academica
+penal-04-0,penal-04,train,Una persona fue capturada y necesita conocer las garantías de su defensa.,penal,sintetico_autoria_academica
+penal-04-1,penal-04,train,Solicito orientación: Una persona fue capturada y necesita conocer las garantías de su defensa.,penal,sintetico_autoria_academica
+penal-04-2,penal-04,train,Consulta recibida: Una persona fue capturada y necesita conocer las garantías de su defensa.,penal,sintetico_autoria_academica
+penal-05-0,penal-05,train,Se presentó una denuncia por estafa tras transferir dinero a un negocio inexistente.,penal,sintetico_autoria_academica
+penal-05-1,penal-05,train,Solicito orientación: Se presentó una denuncia por estafa tras transferir dinero a un negocio inexistente.,penal,sintetico_autoria_academica
+penal-05-2,penal-05,train,Consulta recibida: Se presentó una denuncia por estafa tras transferir dinero a un negocio inexistente.,penal,sintetico_autoria_academica
+penal-06-0,penal-06,train,Un documento fue falsificado para suplantar la identidad de otra persona.,penal,sintetico_autoria_academica
+penal-06-1,penal-06,train,Solicito orientación: Un documento fue falsificado para suplantar la identidad de otra persona.,penal,sintetico_autoria_academica
+penal-06-2,penal-06,train,Consulta recibida: Un documento fue falsificado para suplantar la identidad de otra persona.,penal,sintetico_autoria_academica
+penal-07-0,penal-07,train,La Fiscalía investiga un homicidio y cita a un testigo a declarar.,penal,sintetico_autoria_academica
+penal-07-1,penal-07,train,Solicito orientación: La Fiscalía investiga un homicidio y cita a un testigo a declarar.,penal,sintetico_autoria_academica
+penal-07-2,penal-07,train,Consulta recibida: La Fiscalía investiga un homicidio y cita a un testigo a declarar.,penal,sintetico_autoria_academica
+penal-08-0,penal-08,train,Una víctima solicita protección frente a amenazas reiteradas contra su vida.,penal,sintetico_autoria_academica
+penal-08-1,penal-08,train,Solicito orientación: Una víctima solicita protección frente a amenazas reiteradas contra su vida.,penal,sintetico_autoria_academica
+penal-08-2,penal-08,train,Consulta recibida: Una víctima solicita protección frente a amenazas reiteradas contra su vida.,penal,sintetico_autoria_academica
+penal-09-0,penal-09,train,Se denuncia el acceso no autorizado a una cuenta y el hurto de sus fondos.,penal,sintetico_autoria_academica
+penal-09-1,penal-09,train,Solicito orientación: Se denuncia el acceso no autorizado a una cuenta y el hurto de sus fondos.,penal,sintetico_autoria_academica
+penal-09-2,penal-09,train,Consulta recibida: Se denuncia el acceso no autorizado a una cuenta y el hurto de sus fondos.,penal,sintetico_autoria_academica
+penal-10-0,penal-10,train,La policía capturó al sospechoso de un robo y se requiere defensa ante el juez.,penal,sintetico_autoria_academica
+penal-10-1,penal-10,train,Solicito orientación: La policía capturó al sospechoso de un robo y se requiere defensa ante el juez.,penal,sintetico_autoria_academica
+penal-10-2,penal-10,train,Consulta recibida: La policía capturó al sospechoso de un robo y se requiere defensa ante el juez.,penal,sintetico_autoria_academica
+penal-11-0,penal-11,validation,La víctima de agresión quiere formular una denuncia por lesiones personales.,penal,sintetico_autoria_academica
+penal-11-1,penal-11,validation,Solicito orientación: La víctima de agresión quiere formular una denuncia por lesiones personales.,penal,sintetico_autoria_academica
+penal-11-2,penal-11,validation,Consulta recibida: La víctima de agresión quiere formular una denuncia por lesiones personales.,penal,sintetico_autoria_academica
+penal-12-0,penal-12,validation,Se investiga una estafa con contratos falsificados y suplantación de identidad.,penal,sintetico_autoria_academica
+penal-12-1,penal-12,validation,Solicito orientación: Se investiga una estafa con contratos falsificados y suplantación de identidad.,penal,sintetico_autoria_academica
+penal-12-2,penal-12,validation,Consulta recibida: Se investiga una estafa con contratos falsificados y suplantación de identidad.,penal,sintetico_autoria_academica
+penal-13-0,penal-13,validation,Un testigo recibe amenazas para no declarar ante la Fiscalía.,penal,sintetico_autoria_academica
+penal-13-1,penal-13,validation,Solicito orientación: Un testigo recibe amenazas para no declarar ante la Fiscalía.,penal,sintetico_autoria_academica
+penal-13-2,penal-13,validation,Consulta recibida: Un testigo recibe amenazas para no declarar ante la Fiscalía.,penal,sintetico_autoria_academica
+penal-14-0,penal-14,test,Una persona solicita abogado para una audiencia de imputación tras su captura.,penal,sintetico_autoria_academica
+penal-14-1,penal-14,test,Solicito orientación: Una persona solicita abogado para una audiencia de imputación tras su captura.,penal,sintetico_autoria_academica
+penal-14-2,penal-14,test,Consulta recibida: Una persona solicita abogado para una audiencia de imputación tras su captura.,penal,sintetico_autoria_academica
+penal-15-0,penal-15,test,La víctima denuncia que le robaron sus pertenencias usando un arma.,penal,sintetico_autoria_academica
+penal-15-1,penal-15,test,Solicito orientación: La víctima denuncia que le robaron sus pertenencias usando un arma.,penal,sintetico_autoria_academica
+penal-15-2,penal-15,test,Consulta recibida: La víctima denuncia que le robaron sus pertenencias usando un arma.,penal,sintetico_autoria_academica
+penal-16-0,penal-16,test,Se presenta una denuncia por extorsión a través de mensajes intimidatorios.,penal,sintetico_autoria_academica
+penal-16-1,penal-16,test,Solicito orientación: Se presenta una denuncia por extorsión a través de mensajes intimidatorios.,penal,sintetico_autoria_academica
+penal-16-2,penal-16,test,Consulta recibida: Se presenta una denuncia por extorsión a través de mensajes intimidatorios.,penal,sintetico_autoria_academica

@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "2026-10-26T21:16:28.666409+00:00",
+  "isolated_extraction": true,
+  "tests_returncode": 0,
+  "predict_returncode": 0,
+  "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+  "report_pages_including_cover": 7,
+  "reflection_pages": 1,
+  "summary_words": 150,
+  "references": 6,
+  "note": "Pruebas ejecutadas desde ZIP extraído con Python 3.12 y dependencias instaladas; no se instaló un entorno nuevo."
+}

@@ -1,0 +1,15 @@
+test_audit_excludes_query_and_features (test_mvp.MVPTests.test_audit_excludes_query_and_features) ... ok
+test_examples_represent_four_categories (test_mvp.MVPTests.test_examples_represent_four_categories) ... ok
+test_explanation_reconstructs_logit (test_mvp.MVPTests.test_explanation_reconstructs_logit) ... ok
+test_invalid_inputs (test_mvp.MVPTests.test_invalid_inputs) ... ok
+test_metadata_hash_matches_current_artifact (test_mvp.MVPTests.test_metadata_hash_matches_current_artifact) ... ok
+test_round_trip_prediction (test_mvp.MVPTests.test_round_trip_prediction) ... ok
+test_scenario_and_text_disjointness (test_mvp.MVPTests.test_scenario_and_text_disjointness) ... ok
+test_sensitive_query_is_escalated (test_mvp.MVPTests.test_sensitive_query_is_escalated) ... ok
+test_training_vocabulary_does_not_include_test_only_word (test_mvp.MVPTests.test_training_vocabulary_does_not_include_test_only_word) ... ok
+test_unseen_and_short_queries_abstain (test_mvp.MVPTests.test_unseen_and_short_queries_abstain) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.085s
+
+OK

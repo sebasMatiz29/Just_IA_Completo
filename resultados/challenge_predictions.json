@@ -1,0 +1,691 @@
+[
+  {
+    "text": "Me echaron del empleo y todavía me deben el salario y la liquidación.",
+    "expected": "laboral",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "laboral",
+      "decision": "laboral",
+      "score": 0.505017,
+      "margin": 0.313352,
+      "lexical_coverage": 0.454545,
+      "reasons": [],
+      "probabilities": {
+        "civil": 0.191665,
+        "familia": 0.162413,
+        "laboral": 0.505017,
+        "penal": 0.140905
+      },
+      "contributions": [
+        {
+          "term": "salario",
+          "weight": 0.212907
+        },
+        {
+          "term": "el salario",
+          "weight": 0.212907
+        },
+        {
+          "term": "la liquidación",
+          "weight": 0.210401
+        },
+        {
+          "term": "liquidación",
+          "weight": 0.210401
+        },
+        {
+          "term": "la",
+          "weight": 0.105511
+        }
+      ],
+      "intercept": -0.031267,
+      "full_logit": 0.84495,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Mi patrón nunca cotizó mi seguridad social aunque trabajé todo el año.",
+    "expected": "laboral",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "laboral",
+      "decision": "laboral",
+      "score": 0.614967,
+      "margin": 0.470821,
+      "lexical_coverage": 0.5,
+      "reasons": [],
+      "probabilities": {
+        "civil": 0.144146,
+        "familia": 0.114972,
+        "laboral": 0.614967,
+        "penal": 0.125914
+      },
+      "contributions": [
+        {
+          "term": "mi",
+          "weight": 0.460481
+        },
+        {
+          "term": "trabajé",
+          "weight": 0.185564
+        },
+        {
+          "term": "seguridad social",
+          "weight": 0.171216
+        },
+        {
+          "term": "seguridad",
+          "weight": 0.171216
+        },
+        {
+          "term": "social",
+          "weight": 0.171216
+        }
+      ],
+      "intercept": -0.031267,
+      "full_logit": 1.178397,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "La compañía no quiere reconocer el accidente que tuve durante mi jornada.",
+    "expected": "laboral",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "laboral",
+      "decision": "laboral",
+      "score": 0.578275,
+      "margin": 0.427668,
+      "lexical_coverage": 0.75,
+      "reasons": [],
+      "probabilities": {
+        "civil": 0.150305,
+        "familia": 0.150608,
+        "laboral": 0.578275,
+        "penal": 0.120811
+      },
+      "contributions": [
+        {
+          "term": "mi",
+          "weight": 0.290422
+        },
+        {
+          "term": "durante",
+          "weight": 0.203089
+        },
+        {
+          "term": "jornada",
+          "weight": 0.198156
+        },
+        {
+          "term": "accidente",
+          "weight": 0.163684
+        },
+        {
+          "term": "no",
+          "weight": 0.107979
+        }
+      ],
+      "intercept": -0.031267,
+      "full_logit": 1.064643,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Necesito que el papá de mi niña contribuya con su alimentación.",
+    "expected": "familia",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "familia",
+      "decision": "revision_humana",
+      "score": 0.341781,
+      "margin": 0.064539,
+      "lexical_coverage": 0.454545,
+      "reasons": [
+        "puntaje_bajo",
+        "categorias_cercanas"
+      ],
+      "probabilities": {
+        "civil": 0.239579,
+        "familia": 0.341781,
+        "laboral": 0.277242,
+        "penal": 0.141398
+      },
+      "contributions": [
+        {
+          "term": "su",
+          "weight": 0.297426
+        },
+        {
+          "term": "con su",
+          "weight": 0.227946
+        },
+        {
+          "term": "con",
+          "weight": 0.116833
+        },
+        {
+          "term": "de",
+          "weight": 0.00838
+        }
+      ],
+      "intercept": -0.044523,
+      "full_logit": 0.361789,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Quiero separarme de mi esposo y acordar con quién viven los niños.",
+    "expected": "familia",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "familia",
+      "decision": "revision_humana",
+      "score": 0.389039,
+      "margin": 0.134019,
+      "lexical_coverage": 0.454545,
+      "reasons": [
+        "puntaje_bajo"
+      ],
+      "probabilities": {
+        "civil": 0.233943,
+        "familia": 0.389039,
+        "laboral": 0.25502,
+        "penal": 0.121997
+      },
+      "contributions": [
+        {
+          "term": "los",
+          "weight": 0.31306
+        },
+        {
+          "term": "acordar",
+          "weight": 0.258937
+        },
+        {
+          "term": "con",
+          "weight": 0.117895
+        },
+        {
+          "term": "de",
+          "weight": 0.008456
+        }
+      ],
+      "intercept": -0.044523,
+      "full_logit": 0.522656,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "No me permiten ver a mi hijo pese al acuerdo de visitas.",
+    "expected": "familia",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "familia",
+      "decision": "revision_humana",
+      "score": 0.308913,
+      "margin": 0.004275,
+      "lexical_coverage": 0.636364,
+      "reasons": [
+        "puntaje_bajo",
+        "categorias_cercanas"
+      ],
+      "probabilities": {
+        "civil": 0.211614,
+        "familia": 0.308913,
+        "laboral": 0.304638,
+        "penal": 0.174835
+      },
+      "contributions": [
+        {
+          "term": "hijo",
+          "weight": 0.247758
+        },
+        {
+          "term": "visitas",
+          "weight": 0.160597
+        },
+        {
+          "term": "de visitas",
+          "weight": 0.160597
+        },
+        {
+          "term": "de",
+          "weight": 0.006045
+        }
+      ],
+      "intercept": -0.044523,
+      "full_logit": 0.240362,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Le presté plata a un conocido con un pagaré y no me la devuelve.",
+    "expected": "civil",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "civil",
+      "decision": "civil",
+      "score": 0.473615,
+      "margin": 0.272354,
+      "lexical_coverage": 0.583333,
+      "reasons": [],
+      "probabilities": {
+        "civil": 0.473615,
+        "familia": 0.15047,
+        "laboral": 0.174654,
+        "penal": 0.201261
+      },
+      "contributions": [
+        {
+          "term": "pagaré",
+          "weight": 0.266969
+        },
+        {
+          "term": "devuelve",
+          "weight": 0.237275
+        },
+        {
+          "term": "un",
+          "weight": 0.183201
+        },
+        {
+          "term": "con",
+          "weight": 0.100915
+        },
+        {
+          "term": "no",
+          "weight": 0.043646
+        }
+      ],
+      "intercept": 0.026394,
+      "full_logit": 0.750002,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Quien alquiló mi casa no paga la renta y tampoco entrega las llaves.",
+    "expected": "civil",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "laboral",
+      "decision": "revision_humana",
+      "score": 0.521797,
+      "margin": 0.340734,
+      "lexical_coverage": 0.333333,
+      "reasons": [
+        "vocabulario_poco_cubierto"
+      ],
+      "probabilities": {
+        "civil": 0.135671,
+        "familia": 0.161469,
+        "laboral": 0.521797,
+        "penal": 0.181063
+      },
+      "contributions": [
+        {
+          "term": "mi",
+          "weight": 0.498421
+        },
+        {
+          "term": "no",
+          "weight": 0.185313
+        },
+        {
+          "term": "la",
+          "weight": 0.168319
+        },
+        {
+          "term": "las",
+          "weight": 0.073825
+        }
+      ],
+      "intercept": -0.031267,
+      "full_logit": 0.894611,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Pagué por un carro y la persona que lo vendió no cumple con entregarlo.",
+    "expected": "civil",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "penal",
+      "decision": "revision_humana",
+      "score": 0.321029,
+      "margin": 0.03529,
+      "lexical_coverage": 0.538462,
+      "reasons": [
+        "puntaje_bajo",
+        "categorias_cercanas"
+      ],
+      "probabilities": {
+        "civil": 0.28574,
+        "familia": 0.172424,
+        "laboral": 0.220807,
+        "penal": 0.321029
+      },
+      "contributions": [
+        {
+          "term": "persona",
+          "weight": 0.320771
+        },
+        {
+          "term": "un",
+          "weight": 0.138766
+        },
+        {
+          "term": "por",
+          "weight": 0.049247
+        },
+        {
+          "term": "la",
+          "weight": 0.008956
+        }
+      ],
+      "intercept": 0.049396,
+      "full_logit": 0.278067,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Me amenazan para que entregue dinero y quiero poner una denuncia.",
+    "expected": "penal",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "penal",
+      "decision": "revision_humana",
+      "score": 0.61141,
+      "margin": 0.445634,
+      "lexical_coverage": 0.4,
+      "reasons": [
+        "senal_sensible_revision_prioritaria"
+      ],
+      "probabilities": {
+        "civil": 0.121867,
+        "familia": 0.165776,
+        "laboral": 0.100947,
+        "penal": 0.61141
+      },
+      "contributions": [
+        {
+          "term": "una",
+          "weight": 0.366882
+        },
+        {
+          "term": "denuncia",
+          "weight": 0.365828
+        },
+        {
+          "term": "una denuncia",
+          "weight": 0.234639
+        },
+        {
+          "term": "dinero",
+          "weight": 0.21275
+        }
+      ],
+      "intercept": 0.049396,
+      "full_logit": 1.179787,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Me detuvieron por un supuesto robo y busco un defensor.",
+    "expected": "penal",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "penal",
+      "decision": "revision_humana",
+      "score": 0.443072,
+      "margin": 0.172503,
+      "lexical_coverage": 0.444444,
+      "reasons": [
+        "puntaje_bajo"
+      ],
+      "probabilities": {
+        "civil": 0.270568,
+        "familia": 0.159209,
+        "laboral": 0.127151,
+        "penal": 0.443072
+      },
+      "contributions": [
+        {
+          "term": "un",
+          "weight": 0.297049
+        },
+        {
+          "term": "robo",
+          "weight": 0.28256
+        },
+        {
+          "term": "por",
+          "weight": 0.062263
+        }
+      ],
+      "intercept": 0.049396,
+      "full_logit": 0.691268,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Usaron mi identidad para firmar documentos falsos y quiero denunciar.",
+    "expected": "penal",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "penal",
+      "decision": "revision_humana",
+      "score": 0.348727,
+      "margin": 0.073339,
+      "lexical_coverage": 0.444444,
+      "reasons": [
+        "puntaje_bajo",
+        "categorias_cercanas"
+      ],
+      "probabilities": {
+        "civil": 0.147935,
+        "familia": 0.22795,
+        "laboral": 0.275388,
+        "penal": 0.348727
+      },
+      "contributions": [
+        {
+          "term": "identidad",
+          "weight": 0.268113
+        },
+        {
+          "term": "denunciar",
+          "weight": 0.232272
+        }
+      ],
+      "intercept": 0.049396,
+      "full_logit": 0.379697,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Dame una receta de pastel de chocolate.",
+    "expected": "revision_humana",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "penal",
+      "decision": "revision_humana",
+      "score": 0.425932,
+      "margin": 0.19537,
+      "lexical_coverage": 0.428571,
+      "reasons": [
+        "puntaje_bajo"
+      ],
+      "probabilities": {
+        "civil": 0.230562,
+        "familia": 0.216205,
+        "laboral": 0.1273,
+        "penal": 0.425932
+      },
+      "contributions": [
+        {
+          "term": "una",
+          "weight": 0.80615
+        }
+      ],
+      "intercept": 0.049396,
+      "full_logit": 0.624885,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Cuál es el pronóstico de lluvia para mañana.",
+    "expected": "revision_humana",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "familia",
+      "decision": "revision_humana",
+      "score": 0.337836,
+      "margin": 0.061948,
+      "lexical_coverage": 0.375,
+      "reasons": [
+        "puntaje_bajo",
+        "categorias_cercanas"
+      ],
+      "probabilities": {
+        "civil": 0.275887,
+        "familia": 0.337836,
+        "laboral": 0.240966,
+        "penal": 0.145311
+      },
+      "contributions": [
+        {
+          "term": "para",
+          "weight": 0.614514
+        },
+        {
+          "term": "de",
+          "weight": 0.017721
+        }
+      ],
+      "intercept": -0.044523,
+      "full_logit": 0.346039,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "Necesito ayuda.",
+    "expected": "revision_humana",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "penal",
+      "decision": "revision_humana",
+      "score": 0.262459,
+      "margin": 0.005968,
+      "lexical_coverage": 0.0,
+      "reasons": [
+        "texto_insuficiente",
+        "vocabulario_poco_cubierto",
+        "puntaje_bajo",
+        "categorias_cercanas"
+      ],
+      "probabilities": {
+        "civil": 0.256491,
+        "familia": 0.238931,
+        "laboral": 0.242119,
+        "penal": 0.262459
+      },
+      "contributions": [],
+      "intercept": 0.049396,
+      "full_logit": 0.049396,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  },
+  {
+    "text": "zxqv lmnpr qrstuv",
+    "expected": "revision_humana",
+    "result": {
+      "version": "justia-cls-1.0.0",
+      "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+      "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+      "suggested_class": "penal",
+      "decision": "revision_humana",
+      "score": 0.262459,
+      "margin": 0.005968,
+      "lexical_coverage": 0.0,
+      "reasons": [
+        "texto_insuficiente",
+        "vocabulario_poco_cubierto",
+        "puntaje_bajo",
+        "categorias_cercanas"
+      ],
+      "probabilities": {
+        "civil": 0.256491,
+        "familia": 0.238931,
+        "laboral": 0.242119,
+        "penal": 0.262459
+      },
+      "contributions": [],
+      "intercept": 0.049396,
+      "full_logit": 0.049396,
+      "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+      "requires_human_review": true,
+      "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+    }
+  }
+]

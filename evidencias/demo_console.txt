@@ -1,0 +1,22 @@
+JUSTIA | EJECUCION REAL DEL MVP
+UTC: 2026-10-26T21:07:05.092974+00:00
+Modelo: justia-cls-1.0.0
+Corpus: 192 filas; train=120; validacion=36; prueba=36
+Prueba: accuracy=0.8333; F1 macro=0.8295
+Cobertura con abstencion: 23/36
+
+Mi empleador no pagó el salario ni las cesantías de mi contrato de trabajo.
+Salida: laboral | puntaje=0.834
+Terminos: mi, empleador, trabajo, de trabajo, no pagó
+
+Quiero acordar la custodia y los alimentos de mi hijo menor.
+Salida: familia | puntaje=0.744
+Terminos: la custodia, custodia, alimentos, hijo, menor
+
+Dame una receta de pastel de chocolate.
+Salida: revision_humana | puntaje=0.426
+Terminos: una
+
+Mi pareja me amenaza y controla el dinero para los alimentos de mi hijo.
+Salida: revision_humana | puntaje=0.499
+Terminos: pareja, alimentos, hijo, los, para

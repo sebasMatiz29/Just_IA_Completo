@@ -1,0 +1,37 @@
+id,group,text,expected,predicted,decision,score,correct
+laboral-11-0,laboral-11,Un supervisor humilla diariamente al empleado en su lugar de trabajo.,laboral,laboral,revision_humana,0.406685,True
+laboral-11-1,laboral-11,Solicito orientación: Un supervisor humilla diariamente al empleado en su lugar de trabajo.,laboral,laboral,revision_humana,0.380417,True
+laboral-11-2,laboral-11,Consulta recibida: Un supervisor humilla diariamente al empleado en su lugar de trabajo.,laboral,laboral,revision_humana,0.378193,True
+laboral-12-0,laboral-12,No recibí mi salario ni los aportes después de terminar la relación laboral.,laboral,laboral,revision_humana,0.418405,True
+laboral-12-1,laboral-12,Solicito orientación: No recibí mi salario ni los aportes después de terminar la relación laboral.,laboral,laboral,revision_humana,0.41322,True
+laboral-12-2,laboral-12,Consulta recibida: No recibí mi salario ni los aportes después de terminar la relación laboral.,laboral,laboral,revision_humana,0.411071,True
+laboral-13-0,laboral-13,La empresa desconoce la incapacidad médica y descuenta los días del salario.,laboral,laboral,laboral,0.677959,True
+laboral-13-1,laboral-13,Solicito orientación: La empresa desconoce la incapacidad médica y descuenta los días del salario.,laboral,laboral,laboral,0.650105,True
+laboral-13-2,laboral-13,Consulta recibida: La empresa desconoce la incapacidad médica y descuenta los días del salario.,laboral,laboral,laboral,0.64741,True
+familia-11-0,familia-11,La madre impide las visitas acordadas entre el padre y la hija.,familia,familia,familia,0.706875,True
+familia-11-1,familia-11,Solicito orientación: La madre impide las visitas acordadas entre el padre y la hija.,familia,familia,familia,0.662439,True
+familia-11-2,familia-11,Consulta recibida: La madre impide las visitas acordadas entre el padre y la hija.,familia,familia,familia,0.669113,True
+familia-12-0,familia-12,Los padres discuten quién cubrirá los alimentos y la atención médica del menor.,familia,familia,familia,0.638731,True
+familia-12-1,familia-12,Solicito orientación: Los padres discuten quién cubrirá los alimentos y la atención médica del menor.,familia,familia,familia,0.633483,True
+familia-12-2,familia-12,Consulta recibida: Los padres discuten quién cubrirá los alimentos y la atención médica del menor.,familia,familia,familia,0.639573,True
+familia-13-0,familia-13,La pareja separada requiere un acuerdo sobre custodia compartida y visitas.,familia,familia,revision_humana,0.445819,True
+familia-13-1,familia-13,Solicito orientación: La pareja separada requiere un acuerdo sobre custodia compartida y visitas.,familia,familia,revision_humana,0.421674,True
+familia-13-2,familia-13,Consulta recibida: La pareja separada requiere un acuerdo sobre custodia compartida y visitas.,familia,familia,revision_humana,0.428796,True
+civil-11-0,civil-11,Un deudor incumple las cuotas de un préstamo entre particulares.,civil,civil,revision_humana,0.408338,True
+civil-11-1,civil-11,Solicito orientación: Un deudor incumple las cuotas de un préstamo entre particulares.,civil,civil,revision_humana,0.400776,True
+civil-11-2,civil-11,Consulta recibida: Un deudor incumple las cuotas de un préstamo entre particulares.,civil,civil,revision_humana,0.399046,True
+civil-12-0,civil-12,El propietario exige restituir su local arrendado y pagar la deuda.,civil,laboral,revision_humana,0.32004,False
+civil-12-1,civil-12,Solicito orientación: El propietario exige restituir su local arrendado y pagar la deuda.,civil,laboral,revision_humana,0.319534,False
+civil-12-2,civil-12,Consulta recibida: El propietario exige restituir su local arrendado y pagar la deuda.,civil,laboral,revision_humana,0.317262,False
+civil-13-0,civil-13,Un comprador solicita resolver el contrato por falta de entrega del bien.,civil,civil,civil,0.571886,True
+civil-13-1,civil-13,Solicito orientación: Un comprador solicita resolver el contrato por falta de entrega del bien.,civil,civil,civil,0.550468,True
+civil-13-2,civil-13,Consulta recibida: Un comprador solicita resolver el contrato por falta de entrega del bien.,civil,civil,civil,0.548637,True
+penal-11-0,penal-11,La víctima de agresión quiere formular una denuncia por lesiones personales.,penal,penal,revision_humana,0.719847,True
+penal-11-1,penal-11,Solicito orientación: La víctima de agresión quiere formular una denuncia por lesiones personales.,penal,penal,revision_humana,0.700998,True
+penal-11-2,penal-11,Consulta recibida: La víctima de agresión quiere formular una denuncia por lesiones personales.,penal,penal,revision_humana,0.699113,True
+penal-12-0,penal-12,Se investiga una estafa con contratos falsificados y suplantación de identidad.,penal,penal,penal,0.540765,True
+penal-12-1,penal-12,Solicito orientación: Se investiga una estafa con contratos falsificados y suplantación de identidad.,penal,penal,penal,0.535413,True
+penal-12-2,penal-12,Consulta recibida: Se investiga una estafa con contratos falsificados y suplantación de identidad.,penal,penal,penal,0.532718,True
+penal-13-0,penal-13,Un testigo recibe amenazas para no declarar ante la Fiscalía.,penal,penal,revision_humana,0.714374,True
+penal-13-1,penal-13,Solicito orientación: Un testigo recibe amenazas para no declarar ante la Fiscalía.,penal,penal,revision_humana,0.680225,True
+penal-13-2,penal-13,Consulta recibida: Un testigo recibe amenazas para no declarar ante la Fiscalía.,penal,penal,revision_humana,0.67848,True

@@ -1,0 +1,37 @@
+id,group,text,expected,predicted,decision,score,correct
+laboral-14-0,laboral-14,La trabajadora reclama su liquidación al finalizar el contrato en la oficina.,laboral,laboral,laboral,0.481668,True
+laboral-14-1,laboral-14,Solicito orientación: La trabajadora reclama su liquidación al finalizar el contrato en la oficina.,laboral,laboral,laboral,0.479467,True
+laboral-14-2,laboral-14,Consulta recibida: La trabajadora reclama su liquidación al finalizar el contrato en la oficina.,laboral,laboral,laboral,0.478038,True
+laboral-15-0,laboral-15,Un empleado denuncia jornadas nocturnas sin pago de recargos por su empleador.,laboral,penal,revision_humana,0.273577,False
+laboral-15-1,laboral-15,Solicito orientación: Un empleado denuncia jornadas nocturnas sin pago de recargos por su empleador.,laboral,civil,revision_humana,0.28315,False
+laboral-15-2,laboral-15,Consulta recibida: Un empleado denuncia jornadas nocturnas sin pago de recargos por su empleador.,laboral,civil,revision_humana,0.28187,False
+laboral-16-0,laboral-16,La empresa impide regresar al puesto de trabajo después de una licencia.,laboral,laboral,laboral,0.567953,True
+laboral-16-1,laboral-16,Solicito orientación: La empresa impide regresar al puesto de trabajo después de una licencia.,laboral,laboral,laboral,0.548647,True
+laboral-16-2,laboral-16,Consulta recibida: La empresa impide regresar al puesto de trabajo después de una licencia.,laboral,laboral,laboral,0.546458,True
+familia-14-0,familia-14,El padre quiere revisar la cuota alimentaria por cambios en sus ingresos.,familia,familia,familia,0.568511,True
+familia-14-1,familia-14,Solicito orientación: El padre quiere revisar la cuota alimentaria por cambios en sus ingresos.,familia,familia,familia,0.534973,True
+familia-14-2,familia-14,Consulta recibida: El padre quiere revisar la cuota alimentaria por cambios en sus ingresos.,familia,familia,familia,0.541864,True
+familia-15-0,familia-15,Una persona solicita divorcio porque la convivencia matrimonial terminó.,familia,penal,penal,0.456354,False
+familia-15-1,familia-15,Solicito orientación: Una persona solicita divorcio porque la convivencia matrimonial terminó.,familia,penal,penal,0.452283,False
+familia-15-2,familia-15,Consulta recibida: Una persona solicita divorcio porque la convivencia matrimonial terminó.,familia,penal,revision_humana,0.44935,False
+familia-16-0,familia-16,Se pide reconocer la paternidad y definir obligaciones alimentarias del hijo.,familia,familia,familia,0.50617,True
+familia-16-1,familia-16,Solicito orientación: Se pide reconocer la paternidad y definir obligaciones alimentarias del hijo.,familia,familia,familia,0.469139,True
+familia-16-2,familia-16,Consulta recibida: Se pide reconocer la paternidad y definir obligaciones alimentarias del hijo.,familia,familia,familia,0.475642,True
+civil-14-0,civil-14,Se reclama el pago de una deuda respaldada mediante una letra de cambio.,civil,civil,civil,0.55407,True
+civil-14-1,civil-14,Solicito orientación: Se reclama el pago de una deuda respaldada mediante una letra de cambio.,civil,civil,civil,0.508604,True
+civil-14-2,civil-14,Consulta recibida: Se reclama el pago de una deuda respaldada mediante una letra de cambio.,civil,civil,civil,0.507342,True
+civil-15-0,civil-15,Una filtración del apartamento vecino dañó la vivienda y se solicita indemnización.,civil,civil,revision_humana,0.42972,True
+civil-15-1,civil-15,Solicito orientación: Una filtración del apartamento vecino dañó la vivienda y se solicita indemnización.,civil,civil,revision_humana,0.406586,True
+civil-15-2,civil-15,Consulta recibida: Una filtración del apartamento vecino dañó la vivienda y se solicita indemnización.,civil,civil,revision_humana,0.404973,True
+civil-16-0,civil-16,Los propietarios discuten la división de un bien adquirido en común.,civil,civil,revision_humana,0.374227,True
+civil-16-1,civil-16,Solicito orientación: Los propietarios discuten la división de un bien adquirido en común.,civil,civil,revision_humana,0.354762,True
+civil-16-2,civil-16,Consulta recibida: Los propietarios discuten la división de un bien adquirido en común.,civil,civil,revision_humana,0.352383,True
+penal-14-0,penal-14,Una persona solicita abogado para una audiencia de imputación tras su captura.,penal,penal,penal,0.540392,True
+penal-14-1,penal-14,Solicito orientación: Una persona solicita abogado para una audiencia de imputación tras su captura.,penal,penal,penal,0.522981,True
+penal-14-2,penal-14,Consulta recibida: Una persona solicita abogado para una audiencia de imputación tras su captura.,penal,penal,penal,0.518623,True
+penal-15-0,penal-15,La víctima denuncia que le robaron sus pertenencias usando un arma.,penal,penal,revision_humana,0.708789,True
+penal-15-1,penal-15,Solicito orientación: La víctima denuncia que le robaron sus pertenencias usando un arma.,penal,penal,revision_humana,0.658628,True
+penal-15-2,penal-15,Consulta recibida: La víctima denuncia que le robaron sus pertenencias usando un arma.,penal,penal,revision_humana,0.656086,True
+penal-16-0,penal-16,Se presenta una denuncia por extorsión a través de mensajes intimidatorios.,penal,penal,penal,0.638864,True
+penal-16-1,penal-16,Solicito orientación: Se presenta una denuncia por extorsión a través de mensajes intimidatorios.,penal,penal,penal,0.622958,True
+penal-16-2,penal-16,Consulta recibida: Se presenta una denuncia por extorsión a través de mensajes intimidatorios.,penal,penal,penal,0.620592,True

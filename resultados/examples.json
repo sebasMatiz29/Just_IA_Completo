@@ -1,0 +1,170 @@
+[
+  {
+    "text": "Mi empleador no pagó el salario ni las cesantías de mi contrato de trabajo.",
+    "version": "justia-cls-1.0.0",
+    "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+    "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+    "suggested_class": "laboral",
+    "decision": "laboral",
+    "score": 0.834292,
+    "margin": 0.759267,
+    "lexical_coverage": 0.928571,
+    "reasons": [],
+    "probabilities": {
+      "civil": 0.075026,
+      "familia": 0.044218,
+      "laboral": 0.834292,
+      "penal": 0.046464
+    },
+    "contributions": [
+      {
+        "term": "mi",
+        "weight": 0.294391
+      },
+      {
+        "term": "empleador",
+        "weight": 0.215846
+      },
+      {
+        "term": "trabajo",
+        "weight": 0.194657
+      },
+      {
+        "term": "de trabajo",
+        "weight": 0.194657
+      },
+      {
+        "term": "no pagó",
+        "weight": 0.118484
+      }
+    ],
+    "intercept": -0.031267,
+    "full_logit": 2.058526,
+    "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+    "requires_human_review": true,
+    "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+  },
+  {
+    "text": "Quiero acordar la custodia y los alimentos de mi hijo menor.",
+    "version": "justia-cls-1.0.0",
+    "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+    "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+    "suggested_class": "familia",
+    "decision": "familia",
+    "score": 0.744088,
+    "margin": 0.635188,
+    "lexical_coverage": 0.9,
+    "reasons": [],
+    "probabilities": {
+      "civil": 0.079331,
+      "familia": 0.744088,
+      "laboral": 0.1089,
+      "penal": 0.06768
+    },
+    "contributions": [
+      {
+        "term": "la custodia",
+        "weight": 0.208702
+      },
+      {
+        "term": "custodia",
+        "weight": 0.208702
+      },
+      {
+        "term": "alimentos",
+        "weight": 0.206316
+      },
+      {
+        "term": "hijo",
+        "weight": 0.197245
+      },
+      {
+        "term": "menor",
+        "weight": 0.196782
+      }
+    ],
+    "intercept": -0.044523,
+    "full_logit": 1.639406,
+    "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+    "requires_human_review": true,
+    "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+  },
+  {
+    "text": "Dame una receta de pastel de chocolate.",
+    "version": "justia-cls-1.0.0",
+    "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+    "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+    "suggested_class": "penal",
+    "decision": "revision_humana",
+    "score": 0.425932,
+    "margin": 0.19537,
+    "lexical_coverage": 0.428571,
+    "reasons": [
+      "puntaje_bajo"
+    ],
+    "probabilities": {
+      "civil": 0.230562,
+      "familia": 0.216205,
+      "laboral": 0.1273,
+      "penal": 0.425932
+    },
+    "contributions": [
+      {
+        "term": "una",
+        "weight": 0.80615
+      }
+    ],
+    "intercept": 0.049396,
+    "full_logit": 0.624885,
+    "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+    "requires_human_review": true,
+    "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+  },
+  {
+    "text": "Mi pareja me amenaza y controla el dinero para los alimentos de mi hijo.",
+    "version": "justia-cls-1.0.0",
+    "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+    "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+    "suggested_class": "familia",
+    "decision": "revision_humana",
+    "score": 0.498907,
+    "margin": 0.293248,
+    "lexical_coverage": 0.846154,
+    "reasons": [
+      "senal_sensible_revision_prioritaria"
+    ],
+    "probabilities": {
+      "civil": 0.151635,
+      "familia": 0.498907,
+      "laboral": 0.20566,
+      "penal": 0.143798
+    },
+    "contributions": [
+      {
+        "term": "pareja",
+        "weight": 0.267308
+      },
+      {
+        "term": "alimentos",
+        "weight": 0.219121
+      },
+      {
+        "term": "hijo",
+        "weight": 0.209487
+      },
+      {
+        "term": "los",
+        "weight": 0.189215
+      },
+      {
+        "term": "para",
+        "weight": 0.177236
+      }
+    ],
+    "intercept": -0.044523,
+    "full_logit": 0.830288,
+    "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+    "requires_human_review": true,
+    "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+  }
+]

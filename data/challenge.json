@@ -1,0 +1,18 @@
+[
+  {"text":"Me echaron del empleo y todavía me deben el salario y la liquidación.","expected":"laboral"},
+  {"text":"Mi patrón nunca cotizó mi seguridad social aunque trabajé todo el año.","expected":"laboral"},
+  {"text":"La compañía no quiere reconocer el accidente que tuve durante mi jornada.","expected":"laboral"},
+  {"text":"Necesito que el papá de mi niña contribuya con su alimentación.","expected":"familia"},
+  {"text":"Quiero separarme de mi esposo y acordar con quién viven los niños.","expected":"familia"},
+  {"text":"No me permiten ver a mi hijo pese al acuerdo de visitas.","expected":"familia"},
+  {"text":"Le presté plata a un conocido con un pagaré y no me la devuelve.","expected":"civil"},
+  {"text":"Quien alquiló mi casa no paga la renta y tampoco entrega las llaves.","expected":"civil"},
+  {"text":"Pagué por un carro y la persona que lo vendió no cumple con entregarlo.","expected":"civil"},
+  {"text":"Me amenazan para que entregue dinero y quiero poner una denuncia.","expected":"penal"},
+  {"text":"Me detuvieron por un supuesto robo y busco un defensor.","expected":"penal"},
+  {"text":"Usaron mi identidad para firmar documentos falsos y quiero denunciar.","expected":"penal"},
+  {"text":"Dame una receta de pastel de chocolate.","expected":"revision_humana"},
+  {"text":"Cuál es el pronóstico de lluvia para mañana.","expected":"revision_humana"},
+  {"text":"Necesito ayuda.","expected":"revision_humana"},
+  {"text":"zxqv lmnpr qrstuv","expected":"revision_humana"}
+]

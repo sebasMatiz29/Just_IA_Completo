@@ -1,0 +1,44 @@
+{
+  "version": "justia-cls-1.0.0",
+  "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+  "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+  "suggested_class": "laboral",
+  "decision": "laboral",
+  "score": 0.766455,
+  "margin": 0.679052,
+  "lexical_coverage": 0.888889,
+  "reasons": [],
+  "probabilities": {
+    "civil": 0.087402,
+    "familia": 0.069484,
+    "laboral": 0.766455,
+    "penal": 0.076659
+  },
+  "contributions": [
+    {
+      "term": "empleador",
+      "weight": 0.252625
+    },
+    {
+      "term": "mi",
+      "weight": 0.203499
+    },
+    {
+      "term": "no pagó",
+      "weight": 0.138673
+    },
+    {
+      "term": "pagó el",
+      "weight": 0.138673
+    },
+    {
+      "term": "salario",
+      "weight": 0.138673
+    }
+  ],
+  "intercept": -0.031267,
+  "full_logit": 1.718586,
+  "explanation": "Contribuciones positivas al logit de la clase sugerida; puntaje no calibrado.",
+  "requires_human_review": true,
+  "warning": "Clasificación temática experimental. No es asesoría ni decisión jurídica; requiere revisión humana."
+}

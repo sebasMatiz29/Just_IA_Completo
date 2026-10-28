@@ -1,0 +1,25 @@
+{
+  "version": "justia-cls-1.0.0",
+  "created_utc": "2026-10-26T21:07:04.394041+00:00",
+  "sklearn_version": "1.6.1",
+  "corpus_sha256": "3c4f3668acacbe827cf3c339bb9ace5eff3c3dd446f70e72f35bf7e40083f37c",
+  "scenarios_sha256": "42d0a45aecf424b8c5fbcda6f78f2cd328654cbe5ffe39e4d837040386e0c3d7",
+  "model_sha256": "9b6f8a74ab5cc2b187d29a42e08f6bc3328f5ba91b5e78471ef12c91818cd470",
+  "labels": [
+    "civil",
+    "familia",
+    "laboral",
+    "penal"
+  ],
+  "train_rows": 120,
+  "policy": {
+    "min_tokens": 4,
+    "min_coverage": 0.35,
+    "min_score": 0.45,
+    "min_margin": 0.12
+  },
+  "policy_status": "umbrales heurísticos fijados antes de evaluar; no calibrados",
+  "purpose": "clasificacion_tematica",
+  "deployment": "solo_demostracion_academica",
+  "seed": 42
+}

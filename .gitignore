@@ -1,0 +1,8 @@
+Docs/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+runtime/
+# Los datos sinteticos, modelo local y evidencias academicas SI se entregan.
